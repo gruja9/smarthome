@@ -1,0 +1,159 @@
+body {
+  text-align: center!important;
+  padding: 0px;
+  background-image: url("../img/boxed-bg.jpg");
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.header {
+    color: white;
+    background: #222d32;
+    padding-left: 20px;
+    display:flex;
+    margin-bottom: 10px;
+}
+
+.navigation {
+    display: flex;
+    margin-left: 40px;
+}
+
+.navigation a {
+    color: white;
+    #height: 60px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-right: 5px;
+    background: #1e282c;
+    text-decoration: none;
+    border-bottom: 2px solid cyan;
+}
+
+.navigation a:hover {
+    background: #222d32;
+}
+
+.navigation a:active {
+    color: cyan;
+}
+
+img {
+  margin-bottom: 10px!important;
+  margin-top: 5px!important
+}
+
+/* The input elements */
+
+.checkbox {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.login {
+	padding-right: 70px;
+	padding-left: 70px;
+	padding-bottom: 15px;
+
+}
+.button {
+	margin-top: 10px;
+	display: block;
+    width: 100%;
+    cursor: pointer;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    color: #fff;
+    background-color: #222d32;
+    border-color: #222d32;
+
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+}
+
+.inline {
+   display:inline-block;
+   margin-right:0.2px;
+   margin-top: 10px;
+   cursor: pointer;
+
+   padding: .3rem .8rem;
+   font-size: 1.20rem;
+   line-height: 1.5;
+   border-radius: .3rem;
+
+   color: #fff;
+   background-color: #222d32;
+   border-color: #222d32;
+
+   font-weight: 400;
+   text-align: center;
+   white-space: nowrap;
+   user-select: none;
+   border: 1px solid transparent;
+
+}
+
+.options {
+   margin-right:0.2px;
+   margin-top: 10px;
+   cursor: pointer;
+
+   padding: .3rem .8rem;
+   font-size: 1.10rem;
+   line-height: 1.5;
+   border-radius: .3rem;
+
+}
+
+.other {
+	display: inline-block !important;
+	width: 48% !important;
+}
+
+.form-control {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	border: 1px solid #ced4da;
+	border-radius: .25rem;
+	margin-top: -1px;
+
+}
+
+.input {
+	position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    clip-path: inset(50%);
+    border: 0;
+}
+
+.container {
+	background-color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 100%;
+    max-width: 350px;
+    padding: 15px;
+    margin: 0 auto;
+    min-width: 216px;
+}
+
